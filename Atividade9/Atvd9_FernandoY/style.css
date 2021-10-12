@@ -1,0 +1,117 @@
+
+/*CSS Body*/
+body{
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+
+/*CSS Cabeçalho*/
+header{
+    background-color: #00BBF0;
+    padding: 40px 0;
+}
+
+.menu{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.titulo-principal{
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+}
+
+nav{
+    position: absolute;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #EFFBFF;
+    text-decoration: underline;
+}
+
+
+/*CSS Main*/
+main{
+    background-color: #EFFBFF;
+}
+
+#maior, #ordenador{
+    text-align: center;
+}
+
+.titulo-secundario{
+    padding: 15px 0;
+    font-size: 20px;
+}
+
+label{
+    padding: 0 5px;
+}
+
+input{
+    margin: 0 15px 0 0;
+}
+
+button{
+    margin: 20px auto;
+    display: block;
+    text-align: center;
+    width: 100px;
+    height: 35px;
+}
+
+table{
+    margin: 20px auto;
+    margin-bottom: 40px;
+}
+
+thead{
+    background: #005792;
+    color: white;
+    font-weight: bold;
+}
+
+th{
+    padding: 0 10px;
+}
+
+th, td{
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
+
+
+/*CSS Footer*/
+footer{
+    text-align: center;
+    background-color: #00204A;
+    padding: 40px 0;
+}
+
+#github-icon{
+    width: 25px;
+}
+
+.copyright{
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 20px;
+}

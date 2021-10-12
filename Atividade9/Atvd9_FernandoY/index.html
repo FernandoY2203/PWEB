@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta name="author" content=FernandoY/>
+        <meta charset="UTF-8">
+        <title>Atividade 9</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@200&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <div class="menu">
+                <h1 class="titulo-principal">Atividade 9</h1>
+
+                <nav>
+                    <ul>
+                        <li><a href="#maior">Qual o Maior</a></li>
+                        <li><a href="#ordenador">Ordenador</a></li>
+                        <li><a href="https://github.com/FernandoY2203/PWEB/tree/main/Atividade9">Arquivo da Atividade no GitHub</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <div id="maior">
+                <h2 class="titulo-secundario">Maior Numero</h2>
+
+                <form id="add-maior">
+                    <fieldset>
+                        <label for="num1-maior">Primeiro Numero</label>
+                        <input type="number" id="num1Maior" class="input" placeholder="Digite o primeiro numero" required>
+
+                        <label for="num2-maior">Segundo Numero</label>
+                        <input type="number" id="num2Maior" class="input" placeholder="Digite o segundo numero" required>
+
+                        <label for="num3-maior">Terceiro Numero</label>
+                        <input type="number" id="num3Maior" class="input" placeholder="Digite o terceiro numero" required>
+
+                        <button id="botao-iniciarMaior" class="botao-iniciarMaior">Calcular</button>
+                    </fieldset>
+                </form>
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Primeiro Numero</th>
+                                <th>Segundo Numero</th>
+                                <th>Terceiro Numero</th>
+                                <th>Resultado</th>
+                            </tr>
+                        </thead>
+
+                        <tbody id="tabela-result-maior">
+                        </tbody>
+                    </table>
+            </div>
+
+            <div id="ordenador">
+                <h2 class="titulo-secundario">Ordenador</h2>
+
+                <form id="add-ordenado">
+                    <fieldset>
+                        <label for="num1-ordena">Primeiro Numero</label>
+                        <input type="number" id="num1Ordena" class="input" placeholder="Digite o primeiro numero" required>
+
+                        <label for="num2-ordena">Segundo Numero</label>
+                        <input type="number" id="num2Ordena" class="input" placeholder="Digite o segundo numero" required>
+
+                        <label for="num3-ordena">Terceiro Numero</label>
+                        <input type="number" id="num3Ordena" class="input" placeholder="Digite o terceiro numero" required>
+
+                        <button id="botao-iniciarOrdena" class="botao-iniciarOrdena">Calcular</button>
+                    </fieldset>
+                </form>
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Primeiro Numero</th>
+                                <th>Segundo Numero</th>
+                                <th>Terceiro Numero</th>
+                                <th>Resultado</th>
+                            </tr>
+                        </thead>
+
+                        <tbody id="tabela-result-ordenar">
+                            
+                        </tbody>
+                    </table>
+                <br>
+            </div>
+        </main>
+
+        <script src="maior.js"></script>
+        <script src="ordenador.js"></script>
+
+        <footer>
+            <a href="https://github.com/FernandoY2203"><img src="github.png" id="github-icon" alt="GitHub"></a>
+            <p class="copyright">&copy; Copyright Fernando Yuji - 2021</p>
+        </footer>
+    </body>
+</html>
