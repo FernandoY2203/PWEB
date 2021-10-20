@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta name="author" content=FernandoY/>
+        <meta charset="UTF-8">
+        <title>Atividade 7</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@200&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <div class="menu">
+                <h1 class="titulo-principal">Atividade 7</h1>
+
+                <nav>
+                    <ul>
+                        <li><a href="https://github.com/FernandoY2203/PWEB/tree/main/Atividade7">Arquivo da Atividade no GitHub</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <div>
+                <h2 class="titulo-secundario">Jokenpo</h2>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Player</th>
+                            <th>CPU</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="pontos">
+                        <tr>
+                            <td class="pontos-player">0</td>
+                            <td class="pontos-cpu">0</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="div-botao" id="div-botao">
+                    <button class="botao" id="botaoPedra" onClick="addJogo(this.value);" value="Pedra">Pedra</button>
+                    <button class="botao" id="botaoPapel" onClick="addJogo(this.value);" value="Papel">Papel</button>
+                    <button class="botao" id="botaoTesoura" onClick="addJogo(this.value);" value="Tesoura">Tesoura</button>                    
+                </div>
+
+                <table class="tabela-historico">
+                    <thead>
+                        <tr>
+                            <th>Player</th>
+                            <th>CPU</th>
+                            <th>Resultado</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="historico">
+                    </tbody>
+                </table>
+            </div>
+        </main>
+
+        <script src="index.js"></script>
+
+        <footer>
+            <a href="https://github.com/FernandoY2203"><img src="github.png" id="github-icon" alt="GitHub"></a>
+            <p class="copyright">&copy; Copyright Fernando Yuji - 2021</p>
+        </footer>
+    </body>
+</html>
