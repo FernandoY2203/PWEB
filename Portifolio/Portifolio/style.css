@@ -1,0 +1,294 @@
+/*CSS Index*/
+body{
+    font-family: 'Mulish', sans-serif;
+}
+
+/*CSS Capa*/
+.capa{
+    background-image: url("img/Background1.png");
+    width: auto;
+    height: 1010px;
+}
+
+.lgNome{
+    position: relative;
+    top: -328px;
+    left: 54px;
+}
+
+.lgPrincipal{
+    position: relative;
+    top: 110px;
+    left: 75px;
+}
+
+/*CSS Sobre*/
+.sobre{
+    background-image: url("img/Background2.png");
+    width: auto;
+    height: 874px;
+}
+
+.tituloSobre{
+    font-size: 40px;
+    color: #FD3777;
+    text-shadow:
+    /*Glow Rosa*/
+    0 0 7px #FD3777,
+    0 0 10px #FD3777,
+    0 0 21px #FD3777;
+    position: relative;
+    top: 150px;
+    margin-left: 98px;
+}
+
+.textoSobre{
+    font-size: 30px;
+    color: #FFFFFF;
+    text-shadow:
+    /*Glow Branco*/
+    0 0 5px #FFFFFF,
+    0 0 2px #FFFFFF,
+    0 0 1px #FFFFFF;
+    position: relative;
+    top: 170px;
+    margin-left: 98px;
+}
+
+/*CSS Projetos*/
+.projetos{
+    background-image: url("img/Background3.png");
+    width: auto;
+    height: 1412px;
+}
+
+.tituloProjeto{
+    font-size: 40px;
+    color: #55D6D9;
+    text-shadow:
+    /*Glow Azul*/
+    0 0 7px #55D6D9,
+    0 0 10px #55D6D9,
+    0 0 21px #55D6D9;
+    margin-left: 98px;
+    position: relative;
+    top: 50px;
+}
+
+.obj{
+    position: relative;
+    top: 74px;
+    margin-left: 140px;
+}
+
+.objProjetos{
+    display: inline-block;
+    margin-right: 60px;
+}
+
+.tituloObj{
+    font-size: 35px;
+    color: #55D6D9;
+    text-shadow:
+    /*Glow Azul*/
+    0 0 7px #55D6D9,
+    0 0 10px #55D6D9,
+    0 0 21px #55D6D9;
+    position: relative;
+    top: 60px;
+    left: 30px;
+}
+
+.imgProj{
+    width: 500px;
+    height: 400px;
+    border-radius: 5px;
+    transition: 500ms;
+    box-shadow: 10px 10px 20px #000000
+}
+
+.imgProj:hover{
+    opacity: 0.6;
+}
+
+.linkObj{
+    font-size: 20px;
+    color: #55D6D9;
+    text-shadow:
+    /*Glow Azul*/
+    0 0 7px #55D6D9,
+    0 0 10px #55D6D9,
+    0 0 21px #55D6D9;
+    position: relative;
+    top: -45px;
+    left: 345px;
+    text-decoration: underline 1px;
+}
+
+.cta{
+    position: relative;
+    top: 240px;
+}
+
+.tituloCTA{
+    font-size: 35px;
+    color: #FFFFFF;
+    text-shadow:
+    /*Glow Branco*/
+    0 0 5px #FFFFFF,
+    0 0 6px #FFFFFF,
+    0 0 14px #FFFFFF;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.linkContato{
+    font-size: 65px;
+    color: #5E24C9;
+    text-shadow:
+    /*Glow Azul Escuto*/
+    0 0 2px #5E24C9,
+    0 0 4px #5E24C9,
+    0 0 10px #5E24C9;
+    text-decoration: underline 2px;
+    text-align: center;
+}
+
+.cta a{
+    text-decoration: none;
+}
+
+
+/*CSS Footer*/
+.footerIndex{
+    background-image: url("img/Background4.png");
+    width: auto;
+    height: 485px;
+}
+
+
+/*CSS Contato*/
+.bodyContato{
+    background-image: url("img/BackgroundContato.png");
+    width: auto;
+    height: 1084px;
+    font-family: 'Mulish', sans-serif;
+}
+
+.lgNomeContato{
+    position: relative;
+    top: 8px;
+    left: 54px;
+}
+
+.fontPrincipal{
+    margin-top: 5px;
+    margin-left: 100px;
+    margin-bottom: 28px;
+    font-size: 40px;
+    color: #FFFFFF;
+    text-shadow:
+    /*Glow Branco*/
+    0 0 5px #FFFFFF,
+    0 0 2px #FFFFFF,
+    0 0 1px #FFFFFF;
+}
+
+form{
+    margin-left: 100px;
+}
+
+.fontSecundaria{
+    font-size: 30px;
+    color: #FFFFFF;
+    text-shadow:
+    /*Glow Branco*/
+    0 0 5px #FFFFFF,
+    0 0 2px #FFFFFF,
+    0 0 1px #FFFFFF;
+}
+
+.input{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 22px;
+    padding: 12px 12px;
+    width: 29%;
+    border: 2px solid #000000;
+    border-radius: 6px;
+}
+
+.botao{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+
+.botaoTexto{
+    font-size: 40px;
+    font-family: 'Mulish', sans-serif;
+    color: #FFFFFF;
+    text-shadow:
+    /*Glow Branco*/
+    0 0 5px #FFFFFF,
+    0 0 2px #FFFFFF,
+    0 0 1px #FFFFFF;
+    display: inline;
+    margin-left: 5px;
+    text-decoration: underline 2px;
+    position: relative;
+    top: -8px;
+}
+
+.lnContato{
+    position: relative;
+    top: 128px;
+    left: 40px;
+}
+
+.social{
+    position: relative;
+    top: 190px;
+    text-align: center;
+}
+
+.socialLink{
+    display: inline;
+}
+
+.info{
+    position: relative;
+    top: 215px;
+    text-align: center;
+}
+
+.infoText{
+    display: inline;
+    color: #55D6D9;
+    text-shadow:
+    /*Glow Azul*/
+    0 0 7px #55D6D9,
+    0 0 10px #55D6D9,
+    0 0 21px #55D6D9;
+    font-size: 20px;
+    margin-left: 5px;
+    position: relative;
+    top: -7px;
+}
+
+.copyright{
+    font-size: 25px;
+    color: #55D6D9;
+    text-shadow:
+    /*Glow Azul*/
+    0 0 7px #55D6D9,
+    0 0 10px #55D6D9,
+    0 0 21px #55D6D9;
+    position: relative;
+    top: 250px;
+    text-align: center;
+}
+
