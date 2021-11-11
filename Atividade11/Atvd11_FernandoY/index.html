@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta name="author" content=FernandoY/>
+        <meta charset="UTF-8">
+        <title>Atividade 11</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@200&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <div class="menu">
+                <h1 class="titulo-principal">Atividade 11</h1>
+
+                <nav>
+                    <ul>
+                        <li><a href="https://github.com/FernandoY2203/PWEB/tree/main/Atividade11">Arquivo da Atividade no GitHub</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        
+        <main>
+            <div class="retangulo">
+                <h2 class="titulo-secundario">Area do Retangulo</h2>
+
+                <form id="retanguloForm">
+                    <fieldset>
+                        <label for="altura">Altura</label>
+                        <input type="text" id="altura" class="input" placeholder="Digite a Altura" required>
+                        <label for="largura">Largura</label>
+                        <input type="text" id="largura" class="input" placeholder="Digite a Largura" required>
+
+                        <button id="calcular" onclick="resultado()">Calcular</button>
+                    </fieldset>
+                </form>
+
+                <div class="result">
+                    <h3>Resultado:</h3>
+                    <p id="numResult">0</p>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="conta">
+                <h2 class="titulo-secundario">Conta</h2>
+                
+                <form id="addConta">
+                    <fieldset>
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" class="input" placeholder="Digite o seu Nome" required>
+                        <label for="banco">Banco</label>
+                        <input type="text" id="banco" class="input" placeholder="Digite o Seu Banco" required>
+                        <label for="numConta">Numero da Conta</label>
+                        <input type="text" id="numConta" class="input" placeholder="Digite o Numero da Conta" required>
+                        <label for="saldo">Saldo</label>
+                        <input type="text" id="saldo" class="input" placeholder="Digite o Saldo da Conta" required>
+
+                        <div class="unico">
+                            <label for="saldoEspecial">Saldo Especial</label>
+                            <input type="text" id="saldoEspecial" class="input" placeholder="Digite o Saldo Especial">
+                            <label for="juros">Juros</label>
+                            <input type="text" id="juros" class="input" placeholder="Digite o Juros">
+                        </div>
+
+                        <div>
+                            <button class="botaoConta" onclick="addContaCorrente()">Corrente</button>
+                            <button class="botaoConta" onclick="addContaPoupanca()">Poupança</button>
+                        </div>
+                    </fieldset>
+                </form>
+                
+                <table>
+                    <h3 class="titulo3">Conta Corrente</h3>
+
+                    <thead>
+                        <tr>
+                            <th>Nome</th>
+                            <th>Banco</th>
+                            <th>Numero</th>
+                            <th>Saldo</th>
+                            <th>Saldo Especial</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="tbCorrente">
+                    </tbody>
+                </table>
+
+                <table>
+                    <h3 class="titulo3">Conta Poupança</h3>
+
+                    <thead>
+                        <tr>
+                            <th>Nome</th>
+                            <th>Banco</th>
+                            <th>Numero</th>
+                            <th>Saldo</th>
+                            <th>Juros(%)</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="tbPoupanca">
+                    </tbody>
+                </table>
+            </div>
+        </main>
+
+        <script src="retangulo.js"></script>
+        <script src="conta.js"></script>
+
+        <footer>
+            <a href="https://github.com/FernandoY2203"><img src="github.png" id="github-icon" alt="GitHub"></a>
+            <p class="copyright">&copy; Copyright Fernando Yuji - 2021</p>
+        </footer>
+    </body>
+</html>
